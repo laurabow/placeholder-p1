@@ -9,6 +9,7 @@ What the Fork is for Dinner!?
 ## Project Description
 
 Don't know what to make for dinner? Fear not! What the Fork is for Dinner!? is here! Click the random recipe button to get a random, tasty recipe to make for dinner. Don't like what we picked? Just click it again!
+This app randomly picks a recipe from the API with the click of a button.
 
 ## API and Data Sample
 
