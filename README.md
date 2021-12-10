@@ -9,10 +9,14 @@ What the Fork is for Dinner!?
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Don't know what to have for dinner? Fear not! What the Fork is for Dinner!? is here! With the click of a button, a random recipe will be generated for you to use.
 
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+API: spoontacular
+https://spoonacular.com/food-api/docs#Get-Random-Recipes
+
 
 ## Wireframes
 
