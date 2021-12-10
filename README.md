@@ -32,15 +32,16 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Build app with HTML, CSS, & JavaScript
+- Style with flexbox
+- Use axios to make a request to an API and insert data from that API onto the page.
+- Make the design responsive with media queries 
+- Put website onto GitHub Pages
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add a way to filter the recipes. (i.e. sort by vegetarian or gluten free)
+- Add local storage so the user can save recipes they like for future use.
 
 ## Project Schedule
 
