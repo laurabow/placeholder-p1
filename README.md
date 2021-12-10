@@ -4,15 +4,19 @@
 
 ## Project Name
 
-The name of your project.
+What the Fork is for Dinner!?
 
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Don't know what to make for dinner? Fear not! What the Fork is for Dinner!? is here! Click the random recipe button to get a random, tasty recipe to make for dinner. Don't like what we picked? Just click it again!
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need.
+API: Spoontacular
+Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
+Code Snippet from Postman: (snippet goes here)
 
 ## Wireframes
 
