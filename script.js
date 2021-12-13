@@ -26,18 +26,18 @@ async function fetchRecipeName() {
 }
 fetchRecipeName();
 
-// TODO: NEED TO FIX TO NEW API:
+// TODO: LIST ALL INGREDIENTS INSTEAD OF JUST FIRST ONE:
 async function fetchIngredients() {
   try {
-
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
     const recipe = res.data.meals[0];
     // console.log(recipe);
-    // const ingredients = ;
-    // const p = document.createElement("p");
-    // p.innerText = ingredients;
-    // randomRecipe.appendChild(p);
+    // need to find a way to list ALL ingredients:
+    const ingredients = `${recipe.strMeasure1} of ${recipe.strIngredient1}`;
+    const p = document.createElement("p");
+    p.innerText = ingredients;
+    randomRecipe.appendChild(p);
   } catch (error) {
     console.log(error);
   }
@@ -62,24 +62,26 @@ async function fetchInstructions() {
 }
 fetchInstructions();
 
-// TODO: NEED TO FIX TO NEW API (youtube linke instead?)
+// Recipe Image:
 async function fetchImg() {
   try {
-
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
-    // console.log(res.data.recipes[0]);
-    // const recipes = res.data.recipes[0];
-    // // console.log(recipes);
-    // const recipePic = recipes.image;
-    // const img = document.createElement("img");
-    // img.src = recipes.recipePic;
-    // randomRecipe.appendChild(p);
+    const recipe = res.data.meals[0];
+    // console.log(recipe);
+    const recipePic = recipe.strMealThumb;
+    const img = document.createElement("img");
+    img.src = recipePic;
+    randomRecipe.appendChild(img);
   } catch (error) {
     console.log(error);
   }
 }
 fetchImg();
+
+// Add youtube link?
+
+
 
 
 // function handleClick() {
