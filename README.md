@@ -17,9 +17,9 @@ This app randomly picks a recipe from the API with the click of a button.
 API: Spoontacular
 Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
 
-Don't know what to have for dinner? Fear not! What the Fork is for Dinner!? is here! With the click of a button, a random recipe will be generated for you to use.
 
 ## Code Snippet from Postman: (snippet goes here)
+(waiting on postman to load)
 
 ## Wireframes
 
@@ -27,21 +27,20 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Build app with HTML, CSS, & JavaScript
 - Style with flexbox
 - Use axios to make a request to an API and insert data from that API onto the page.
-- Make the design responsive with media queries 
-- Put website onto GitHub Pages
+- have random recipe with picture of random recipe show up on page after clicking button.
+- Make the design responsive with media queries. 
+- Put website onto GitHub Pages.
 
 #### PostMVP  
 
 - Add a way to filter the recipes. (i.e. sort by vegetarian or gluten free)
 - Add local storage so the user can save recipes they like for future use.
+- Add a filter where users can input ingredients they already have to generate receipes they could make.
 
 ## Project Schedule
 
