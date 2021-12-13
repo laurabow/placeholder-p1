@@ -96,8 +96,8 @@ This code is the Title, timing, servings, and summary/description of a random re
                                 }
                             ],
                             "equipment": []
-                        },
-                        ```
+                        }
+```
 
 
 ## Wireframes
