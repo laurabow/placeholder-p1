@@ -21,7 +21,7 @@ Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
 ## Code Snippet from Postman: (snippet goes here)
 This code is the Title, timing, servings, and summary/description of a random recipe.
  
-![snippets]```json
+```json
 {("id": 635058,
             "title": "Black Bean and Peppers Taco Filling",
             "readyInMinutes": 45,
