@@ -6,6 +6,7 @@ const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
 
 const recipeButton = document.querySelector("#recipe-button");
 const randomRecipe = document.querySelector("#recipe");
+const ingredientsList = document.querySelector("#ingredients");
 
 // Recipe Name:
 async function fetchRecipeName() {
@@ -16,7 +17,7 @@ async function fetchRecipeName() {
     const recipe = res.data.meals[0];
     console.log(recipe);
     const mealName = recipe.strMeal;
-    console.log(mealName);
+    // console.log(mealName);
     const h2 = document.createElement("h2");
     h2.innerText = mealName;
     randomRecipe.appendChild(h2);
@@ -26,18 +27,18 @@ async function fetchRecipeName() {
 }
 fetchRecipeName();
 
-// TODO: LIST ALL INGREDIENTS INSTEAD OF JUST FIRST ONE:
+// TODO: fix formatting of ingredients list:
 async function fetchIngredients() {
   try {
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
     const recipe = res.data.meals[0];
     // console.log(recipe);
-    // need to find a way to list ALL ingredients:
+    // fix these so they list on individual bullet points:
     const ingredients = [`${recipe.strMeasure1} of ${recipe.strIngredient1}`, `${recipe.strMeasure2} of ${recipe.strIngredient2}`, `${recipe.strMeasure3} of ${recipe.strIngredient3}`, `${recipe.strMeasure4} of ${recipe.strIngredient4}`, `${recipe.strMeasure5} of ${recipe.strIngredient5}`, `${recipe.strMeasure6} of ${recipe.strIngredient6}`, `${recipe.strMeasure7} of ${recipe.strIngredient7}`, `${recipe.strMeasure8} of ${recipe.strIngredient8}`, `${recipe.strMeasure9} of ${recipe.strIngredient9}`, `${recipe.strMeasure10} of ${recipe.strIngredient10}`, `${recipe.strMeasure11} of ${recipe.strIngredient11}`, `${recipe.strMeasure12} of ${recipe.strIngredient12}`, `${recipe.strMeasure13} of ${recipe.strIngredient13}`, `${recipe.strMeasure14} of ${recipe.strIngredient14}`, `${recipe.strMeasure15} of ${recipe.strIngredient15}`, `${recipe.strMeasure16} of ${recipe.strIngredient16}`, `${recipe.strMeasure17} of ${recipe.strIngredient17}`, `${recipe.strMeasure18} of ${recipe.strIngredient18}`, `${recipe.strMeasure19} of ${recipe.strIngredient19}`, `${recipe.strMeasure20} of ${recipe.strIngredient20}`];
-    const p = document.createElement("p");
-    p.innerText = ingredients;
-    randomRecipe.appendChild(p);
+    const li = document.createElement("li");
+    li.innerText = ingredients;
+    randomRecipe.appendChild(li);
   } catch (error) {
     console.log(error);
   }
