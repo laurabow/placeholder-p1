@@ -19,7 +19,15 @@ Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
 
 
 ## Code Snippet from Postman: (snippet goes here)
-(waiting on postman to load)
+This code is the Title, timing, servings, and summary/description of a random recipe.
+```  "id": 635058,
+            "title": "Black Bean and Peppers Taco Filling",
+            "readyInMinutes": 45,
+            "servings": 8,
+            "sourceUrl": "http://www.foodista.com/recipe/L7GY4PX3/black-bean-and-peppers-taco-filling",
+            "image": "https://spoonacular.com/recipeImages/635058-556x370.jpg",
+            "imageType": "jpg",
+            "summary": "The recipe Black Bean and Peppers Taco Filling is ready <b>in roughly 45 minutes</b> and is definitely an excellent <b>gluten free and vegan</b> option for lovers of Mexican food. For <b>52 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>117 calories</b>, <b>5g of protein</b>, and <b>3g of fat</b> each. This recipe is liked by 10 foodies and cooks. Head to the store and pick up chili powder, paprika, canned tomatoes, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 87%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/kale-turkey-and-black-bean-taco-filling-plus-5-ways-to-use-it-506463\">Kale, Turkey and Black Bean Taco Filling -Plus 5 Ways to Use It</a>, <a href=\"https://spoonacular.com/recipes/pinquito-bean-and-quinoa-taco-filling-628625\">Pinquito Bean and Quinoa Taco Filling</a>, and <a href=\"https://spoonacular.com/recipes/easy-baked-refried-bean-dip-or-taco-or-burrito-filling-859342\">Easy Baked Refried Bean Dip (or taco or burrito filling)</a> for similar recipes.",```
 
 ## Wireframes
 
@@ -44,13 +52,10 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Dec 13| Project Approval | Incomplete
 |Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Dec 14| Pseudocode / actual code | Incomplete
@@ -72,7 +77,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Set up of HTML/JS/CSS | H | 2 hrs | 0 | 0 |
+| set up API | H | 2hrs | 0 | 0 |
+| Make header | H | 1hr | 0 | 0 |
+| Make body content | H | 2hrs | 0 | 0 |
+| make btn/event listener | H | 3 hrs | 0 | 0 |
+| Debugging API/button | H | 4 hrs | 0 | 0 |
+| style header | M | 2 hrs | 0 | 0 |
+| pull data/create variables | H | 4hr | 0 | 0 |
+| append recipes to DOM | H | 4 hrs | 0 | 0 |
+| CSS formatting | H | 3hr | 0 | 0 |
+| design focus | M | 3 hr | 0 | 0 |
+| DEBUG | H | 4 hrs | 0 | 0 |
+| testing | H | 4hr | 0 | 0 |
+| Total | H | 44 hr | 0 | 0 | 
+
 
 ## Code Snippet
 
