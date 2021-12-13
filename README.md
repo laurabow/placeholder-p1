@@ -102,7 +102,7 @@ This code is the Title, timing, servings, and summary/description of a random re
 
 ## Wireframes
 
-[WireframeLink]https://whimsical.com/priority-matrix-PXKTKkQ7Q55hnFRsDSSTEB
+[WireframeLink] https://whimsical.com/priority-matrix-PXKTKkQ7Q55hnFRsDSSTEB
 
 ![wireframe of what the fork is for dinner app](https://i.imgur.com/H4Wawaj.png)
 
@@ -138,7 +138,7 @@ This code is the Title, timing, servings, and summary/description of a random re
 
 ## Priority Matrix
 
-[PriorityMatrix]https://whimsical.com/real-priority-matrix-LXecpXrXLF4gdY9wbfgwU6
+[PriorityMatrix] https://whimsical.com/real-priority-matrix-LXecpXrXLF4gdY9wbfgwU6
 
 ![graph of priority matrix](https://i.imgur.com/W15R9cy.png)
 
