@@ -20,22 +20,21 @@ Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
 
 ## Code Snippet from Postman: (snippet goes here)
 This code is the Title, timing, servings, and summary/description of a random recipe.
-```  
-"id": 635058,
+ 
+![snippets]("id": 635058,
             "title": "Black Bean and Peppers Taco Filling",
             "readyInMinutes": 45,
             "servings": 8,
             "sourceUrl": "http://www.foodista.com/recipe/L7GY4PX3/black-bean-and-peppers-taco-filling",
             "image": "https://spoonacular.com/recipeImages/635058-556x370.jpg",
             "imageType": "jpg",
-            "summary": "The recipe Black Bean and Peppers Taco Filling is ready <b>in roughly 45 minutes</b> and is definitely an excellent <b>gluten free and vegan</b> option for lovers of Mexican food. For <b>52 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>117 calories</b>, <b>5g of protein</b>, and <b>3g of fat</b> each. This recipe is liked by 10 foodies and cooks. Head to the store and pick up chili powder, paprika, canned tomatoes, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 87%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/kale-turkey-and-black-bean-taco-filling-plus-5-ways-to-use-it-506463\">Kale, Turkey and Black Bean Taco Filling -Plus 5 Ways to Use It</a>, <a href=\"https://spoonacular.com/recipes/pinquito-bean-and-quinoa-taco-filling-628625\">Pinquito Bean and Quinoa Taco Filling</a>, and <a href=\"https://spoonacular.com/recipes/easy-baked-refried-bean-dip-or-taco-or-burrito-filling-859342\">Easy Baked Refried Bean Dip (or taco or burrito filling)</a> for similar recipes.", 
-            ```
+            "summary": "The recipe Black Bean and Peppers Taco Filling is ready <b>in roughly 45 minutes</b> and is definitely an excellent <b>gluten free and vegan</b> option for lovers of Mexican food. For <b>52 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>117 calories</b>, <b>5g of protein</b>, and <b>3g of fat</b> each. This recipe is liked by 10 foodies and cooks. Head to the store and pick up chili powder, paprika, canned tomatoes, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 87%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/kale-turkey-and-black-bean-taco-filling-plus-5-ways-to-use-it-506463\">Kale, Turkey and Black Bean Taco Filling -Plus 5 Ways to Use It</a>, <a href=\"https://spoonacular.com/recipes/pinquito-bean-and-quinoa-taco-filling-628625\">Pinquito Bean and Quinoa Taco Filling</a>, and <a href=\"https://spoonacular.com/recipes/easy-baked-refried-bean-dip-or-taco-or-burrito-filling-859342\">Easy Baked Refried Bean Dip (or taco or burrito filling)</a> for similar recipes.",) 
 
 
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-![wirefrae of what the fork is for dinner app](https://i.imgur.com/SBCYkMn.jpg)
+![wireframe of what the fork is for dinner app](https://i.imgur.com/SBCYkMn.jpg)
 
 ### MVP/PostMVP
 
