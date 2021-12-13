@@ -102,7 +102,8 @@ This code is the Title, timing, servings, and summary/description of a random re
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+[WireframeLink]https://whimsical.com/priority-matrix-PXKTKkQ7Q55hnFRsDSSTEB
+
 ![wireframe of what the fork is for dinner app](https://i.imgur.com/H4Wawaj.png)
 
 ### MVP/PostMVP
@@ -137,7 +138,9 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+[PriorityMatrix]https://whimsical.com/real-priority-matrix-LXecpXrXLF4gdY9wbfgwU6
+
+![graph of priority matrix](https://i.imgur.com/W15R9cy.png)
 
 ## Timeframes
 
