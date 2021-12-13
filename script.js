@@ -7,33 +7,34 @@ const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
 const recipeButton = document.querySelector("#recipe-button");
 const randomRecipe = document.querySelector("#recipe");
 
+// Recipe Name:
 async function fetchRecipeName() {
   try {
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
-    // console.log(res.data.recipes[0]);
-    // const recipes = res.data.recipes[0];
-    // // console.log(recipes);
-    // const recipeTitle = recipes.title;
-    // // console.log(recipeTitle);
-    // const h2 = document.createElement("h2");
-    // h2.innerText = recipeTitle;
-    // randomRecipe.appendChild(h2);
+    // console.log(res.data.meals[0]);
+    const recipe = res.data.meals[0];
+    console.log(recipe);
+    const mealName = recipe.strMeal;
+    console.log(mealName);
+    const h2 = document.createElement("h2");
+    h2.innerText = mealName;
+    randomRecipe.appendChild(h2);
   } catch (error) {
     console.log(error);
   }
 }
 fetchRecipeName();
 
+// TODO: NEED TO FIX TO NEW API:
 async function fetchIngredients() {
   try {
 
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
-    // console.log(res.data.recipes[0]);
-    // const recipes = res.data.recipes[0];
-    // // console.log(recipes);
-    // const ingredients = recipes.extendedIngredients;
+    const recipe = res.data.meals[0];
+    // console.log(recipe);
+    // const ingredients = ;
     // const p = document.createElement("p");
     // p.innerText = ingredients;
     // randomRecipe.appendChild(p);
@@ -43,24 +44,25 @@ async function fetchIngredients() {
 }
 fetchIngredients();
 
+// Instructions:
 async function fetchInstructions() {
   try {
 
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
-    // console.log(res.data.recipes[0]);
-    // const recipes = res.data.recipes[0];
-    // console.log(recipes);
-    // const instructions = recipes.instructions;
-    // const p = document.createElement("p");
-    // p.innerText = instructions;
-    // randomRecipe.appendChild(p);
+    const recipe = res.data.meals[0];
+    // console.log(recipe);
+    const instructions = recipe.strInstructions;
+    const p = document.createElement("p");
+    p.innerText = instructions;
+    randomRecipe.appendChild(p);
   } catch (error) {
     console.log(error);
   }
 }
 fetchInstructions();
 
+// TODO: NEED TO FIX TO NEW API (youtube linke instead?)
 async function fetchImg() {
   try {
 
