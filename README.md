@@ -22,80 +22,64 @@ This code snippet shows some steps from the instructions.
  
 ```json
 {
-                    "name": "",
-                    "steps": [
-                        {
-                            "number": 1,
-                            "step": "In a skillet add olive oil, onions and bell pepper. Cook until tender, about 3  5 minutes.",
-                            "ingredients": [
-                                {
-                                    "id": 10211821,
-                                    "name": "bell pepper",
-                                    "localizedName": "bell pepper",
-                                    "image": "bell-pepper-orange.png"
-                                },
-                                {
-                                    "id": 4053,
-                                    "name": "olive oil",
-                                    "localizedName": "olive oil",
-                                    "image": "olive-oil.jpg"
-                                },
-                                {
-                                    "id": 11282,
-                                    "name": "onion",
-                                    "localizedName": "onion",
-                                    "image": "brown-onion.png"
-                                }
-                            ],
-                            "equipment": [
-                                {
-                                    "id": 404645,
-                                    "name": "frying pan",
-                                    "localizedName": "frying pan",
-                                    "image": "pan.png"
-                                }
-                            ],
-                            "length": {
-                                "number": 5,
-                                "unit": "minutes"
-                            }
-                        },
-                        {
-                            "number": 2,
-                            "step": "Add tomatoes and seasonings, saute for 10 minutes.",
-                            "ingredients": [
-                                {
-                                    "id": 1042027,
-                                    "name": "seasoning",
-                                    "localizedName": "seasoning",
-                                    "image": "seasoning.png"
-                                },
-                                {
-                                    "id": 11529,
-                                    "name": "tomato",
-                                    "localizedName": "tomato",
-                                    "image": "tomato.png"
-                                }
-                            ],
-                            "equipment": [],
-                            "length": {
-                                "number": 10,
-                                "unit": "minutes"
-                            }
-                        },
-                        {
-                            "number": 3,
-                            "step": "Add black beans and cook until warm.",
-                            "ingredients": [
-                                {
-                                    "id": 16015,
-                                    "name": "black beans",
-                                    "localizedName": "black beans",
-                                    "image": "black-beans.jpg"
-                                }
-                            ],
-                            "equipment": []
-                        }
+    "meals": [
+        {
+            "idMeal": "53050",
+            "strMeal": "Ayam Percik",
+            "strDrinkAlternate": null,
+            "strCategory": "Chicken",
+            "strArea": "Malaysian",
+            "strInstructions": "In a blender, add the ingredients for the spice paste and blend until smooth.\r\nOver medium heat, pour the spice paste in a skillet or pan and fry for 10 minutes until fragrant. Add water or oil 1 tablespoon at a time if the paste becomes too dry. Don't burn the paste. Lower the fire slightly if needed.\r\nAdd the cloves, cardamom, tamarind pulp, coconut milk, water, sugar and salt. Turn the heat up and bring the mixture to boil. Turn the heat to medium low and simmer for 10 minutes. Stir occasionally. It will reduce slightly. This is the marinade/sauce, so taste and adjust seasoning if necessary. Don't worry if it's slightly bitter. It will go away when roasting.\r\nWhen the marinade/sauce has cooled, pour everything over the chicken and marinate overnight to two days.\r\nPreheat the oven to 425 F.\r\nRemove the chicken from the marinade. Spoon the marinade onto a greased (or aluminum lined) baking sheet. Lay the chicken on top of the sauce (make sure the chicken covers the sauce and the sauce isn't exposed or it'll burn) and spread the remaining marinade on the chicken. Roast for 35-45 minutes or until internal temp of the thickest part of chicken is at least 175 F.\r\nLet chicken rest for 5 minutes. Brush the chicken with some of the oil. Serve chicken with the sauce over steamed rice (or coconut rice).",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+            "strTags": null,
+            "strYoutube": "https://www.youtube.com/watch?v=9ytR28QK6I8",
+            "strIngredient1": "Chicken Thighs",
+            "strIngredient2": "Challots",
+            "strIngredient3": "Ginger",
+            "strIngredient4": "Garlic Clove",
+            "strIngredient5": "Cayenne Pepper",
+            "strIngredient6": "Turmeric",
+            "strIngredient7": "Cumin",
+            "strIngredient8": "Coriander",
+            "strIngredient9": "Fennel",
+            "strIngredient10": "Tamarind Paste",
+            "strIngredient11": "Coconut Milk",
+            "strIngredient12": "Sugar",
+            "strIngredient13": "Water",
+            "strIngredient14": "",
+            "strIngredient15": "",
+            "strIngredient16": "",
+            "strIngredient17": "",
+            "strIngredient18": "",
+            "strIngredient19": "",
+            "strIngredient20": "",
+            "strMeasure1": "6",
+            "strMeasure2": "16",
+            "strMeasure3": "1 1/2 ",
+            "strMeasure4": "6",
+            "strMeasure5": "8",
+            "strMeasure6": "2 tbs",
+            "strMeasure7": "1 1/2 ",
+            "strMeasure8": "1 1/2 ",
+            "strMeasure9": "1 1/2 ",
+            "strMeasure10": "2 tbs",
+            "strMeasure11": "1 can ",
+            "strMeasure12": "1 tsp ",
+            "strMeasure13": "1 cup ",
+            "strMeasure14": " ",
+            "strMeasure15": " ",
+            "strMeasure16": " ",
+            "strMeasure17": " ",
+            "strMeasure18": " ",
+            "strMeasure19": " ",
+            "strMeasure20": " ",
+            "strSource": "http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik/",
+            "strImageSource": null,
+            "strCreativeCommonsConfirmed": null,
+            "dateModified": null
+        }
+    ]
+}
 ```
 
 
@@ -175,5 +159,5 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes. 
+ 
  Switched API from spoontacular to the mealdb (spoontacular costs money now) 
