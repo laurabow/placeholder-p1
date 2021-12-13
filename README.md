@@ -19,7 +19,7 @@ Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
 
 
 ## Code Snippet from Postman: (snippet goes here)
-This code is the Title, timing, servings, and summary/description of a random recipe.
+This code snippet shows some steps from the instructions.
  
 ```json
 {
