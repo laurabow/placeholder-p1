@@ -14,9 +14,8 @@ This app randomly picks a recipe from the API with the click of a button.
 ## API and Data Sample
 
 
-API: Spoontacular
-Link: https://spoonacular.com/food-api/docs#Get-Random-Recipes
-
+API: The Meal DB
+Link: www.themealdb.com/api/json/v1/1/random.php
 
 ## Code Snippet from Postman: (snippet goes here)
 This code snippet shows some steps from the instructions.
@@ -176,4 +175,5 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Use this section to document what changes were made and the reasoning behind those changes. 
+ Switched API from spoontacular to the mealdb (spoontacular costs money now) 
