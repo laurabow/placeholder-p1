@@ -34,7 +34,7 @@ async function fetchIngredients() {
     const recipe = res.data.meals[0];
     // console.log(recipe);
     // need to find a way to list ALL ingredients:
-    const ingredients = `${recipe.strMeasure1} of ${recipe.strIngredient1}`;
+    const ingredients = [`${recipe.strMeasure1} of ${recipe.strIngredient1}`, `${recipe.strMeasure2} of ${recipe.strIngredient2}`, `${recipe.strMeasure3} of ${recipe.strIngredient3}`, `${recipe.strMeasure4} of ${recipe.strIngredient4}`, `${recipe.strMeasure5} of ${recipe.strIngredient5}`, `${recipe.strMeasure6} of ${recipe.strIngredient6}`, `${recipe.strMeasure7} of ${recipe.strIngredient7}`, `${recipe.strMeasure8} of ${recipe.strIngredient8}`, `${recipe.strMeasure9} of ${recipe.strIngredient9}`, `${recipe.strMeasure10} of ${recipe.strIngredient10}`, `${recipe.strMeasure11} of ${recipe.strIngredient11}`, `${recipe.strMeasure12} of ${recipe.strIngredient12}`, `${recipe.strMeasure13} of ${recipe.strIngredient13}`, `${recipe.strMeasure14} of ${recipe.strIngredient14}`, `${recipe.strMeasure15} of ${recipe.strIngredient15}`, `${recipe.strMeasure16} of ${recipe.strIngredient16}`, `${recipe.strMeasure17} of ${recipe.strIngredient17}`, `${recipe.strMeasure18} of ${recipe.strIngredient18}`, `${recipe.strMeasure19} of ${recipe.strIngredient19}`, `${recipe.strMeasure20} of ${recipe.strIngredient20}`];
     const p = document.createElement("p");
     p.innerText = ingredients;
     randomRecipe.appendChild(p);
