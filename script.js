@@ -4,3 +4,7 @@ const baseUrl = "https://api.spoonacular.com/recipes/random?apiKey=${apiKey}";
 
 const recipeButton = document.querySelector("#recipe-button");
 
+
+// async function showRecipe() {
+//   let res = await axios.get("https://api.spoonacular.com/recipes/random?apiKey=${apiKey}")
+// }
