@@ -14,6 +14,7 @@ body{
 #intro{
 display: flex;
 justify-content: center;
+margin: 10% auto; 
 }
 
 #recipe-button{
@@ -23,6 +24,7 @@ background-color: rgb(254, 109, 115);
 border-radius: 30%;
 padding-top: 1%;
 padding-bottom: 1%;
+box-shadow: 3px 3px 3px grey;
 }
 
 #recipe{
