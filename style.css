@@ -38,3 +38,7 @@ flex-direction: column;
     align-content: center;
     justify-content: center;
 }
+
+/* .hide:empty{
+  display: none;
+} */
