@@ -166,4 +166,5 @@ recipeButton.addEventListener("click", handleClick);
 // removes previous recipe when button clicked again:
 function removeRecipe() {
   randomRecipe.innerHTML = "";
+  imageDiv.innerHTML = "";
 }
