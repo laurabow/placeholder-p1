@@ -1,0 +1,19 @@
+#title{
+display: flex;
+justify-content: center;
+}
+
+#intro{
+display: flex;
+justify-content: center;
+}
+
+#recipe-button{
+display: flex;
+margin: auto;
+}
+
+#recipe{
+display: flex;
+flex-direction: column;
+}

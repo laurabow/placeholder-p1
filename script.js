@@ -88,7 +88,7 @@ async function fetchImg() {
 
 // Add youtube link?
 
-
+// button function:
 function handleClick() {
   fetchRecipeName();
   fetchIngredients();
@@ -96,9 +96,9 @@ function handleClick() {
   fetchImg();
 }
 
-
 recipeButton.addEventListener("click", handleClick);
 
+// removes previous recipe when button clicked again:
 function removeRecipe() {
   randomRecipe.innerHTML = "";
 }
