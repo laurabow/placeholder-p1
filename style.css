@@ -1,6 +1,14 @@
 #title{
 display: flex;
 justify-content: center;
+background-color: rgb(255, 203, 119);
+margin: 3% auto 5% auto;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+body{
+  background-color: rgb(23, 195, 178);
 }
 
 #intro{
@@ -11,9 +19,20 @@ justify-content: center;
 #recipe-button{
 display: flex;
 margin: auto;
+background-color: rgb(254, 109, 115);
+border-radius: 30%;
+padding-top: 1%;
+padding-bottom: 1%;
 }
 
 #recipe{
 display: flex;
 flex-direction: column;
+}
+
+#image{
+  display: flex;
+  flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
 }

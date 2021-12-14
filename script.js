@@ -7,6 +7,7 @@ const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
 const recipeButton = document.querySelector("#recipe-button");
 const randomRecipe = document.querySelector("#recipe");
 const ingredientsList = document.querySelector("#ingredients");
+const imageDiv = document.querySelector("#image");
 
 // Recipe Name:
 async function fetchRecipeName() {
@@ -79,7 +80,7 @@ async function fetchImg() {
     const recipePic = recipe.strMealThumb;
     const img = document.createElement("img");
     img.src = recipePic;
-    randomRecipe.appendChild(img);
+    imageDiv.appendChild(img);
   } catch (error) {
     console.log(error);
   }
