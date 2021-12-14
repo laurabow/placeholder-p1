@@ -25,7 +25,7 @@ async function fetchRecipeName() {
     console.log(error);
   }
 }
-fetchRecipeName();
+// fetchRecipeName();
 
 // TODO: fix formatting of ingredients list:
 async function fetchIngredients() {
@@ -45,12 +45,7 @@ async function fetchIngredients() {
     console.log(error);
   }
 }
-fetchIngredients();
-
-// appending ingredients to dom:
-// const li = document.createElement("li");
-// li.innerText = ingredients;
-// randomRecipe.appendChild(li);
+// fetchIngredients();
 
 // Instructions:
 async function fetchInstructions() {
@@ -68,7 +63,7 @@ async function fetchInstructions() {
     console.log(error);
   }
 }
-fetchInstructions();
+// fetchInstructions();
 
 // Recipe Image:
 async function fetchImg() {
@@ -85,12 +80,17 @@ async function fetchImg() {
     console.log(error);
   }
 }
-fetchImg();
+// fetchImg();
 
 // Add youtube link?
 
 
-
+function handleClick() {
+  fetchRecipeName();
+  fetchIngredients();
+  fetchInstructions();
+  fetchImg();
+}
 
 // function handleClick() {
 //   fetchRecipe();
@@ -102,13 +102,6 @@ fetchImg();
 //   });
 // }
 
-// function renderRecipe() {
-//   recipes.forEach((recipe) => {
-//     console.log(recipes.title);
-//     let h2 = document.createElement("h2");
-//     h2.innerText = recipes.title;
-//     randomRecipe.appendChild(h2);
-//   });
-// }
 
-// recipeButton.addEventListener("click", handleClick);
+
+recipeButton.addEventListener("click", handleClick);
