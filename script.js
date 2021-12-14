@@ -10,6 +10,7 @@ const ingredientsList = document.querySelector("#ingredients");
 
 // Recipe Name:
 async function fetchRecipeName() {
+  removeRecipe();
   try {
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
@@ -29,6 +30,7 @@ async function fetchRecipeName() {
 
 // TODO: fix formatting of ingredients list:
 async function fetchIngredients() {
+  removeRecipe();
   try {
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
@@ -49,6 +51,7 @@ async function fetchIngredients() {
 
 // Instructions:
 async function fetchInstructions() {
+  removeRecipe();
   try {
 
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
@@ -67,6 +70,7 @@ async function fetchInstructions() {
 
 // Recipe Image:
 async function fetchImg() {
+  removeRecipe();
   try {
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
     let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
@@ -92,16 +96,9 @@ function handleClick() {
   fetchImg();
 }
 
-// function handleClick() {
-//   fetchRecipe();
-//   recipes.forEach((recipe) => {
-//     console.log(recipes.title);
-//     let h2 = document.createElement("h2");
-//     h2.innerText = recipes.title;
-//     randomRecipe.appendChild(h2);
-//   });
-// }
-
-
 
 recipeButton.addEventListener("click", handleClick);
+
+function removeRecipe() {
+  randomRecipe.innerHTML = "";
+}
