@@ -36,5 +36,5 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
     align-content: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
