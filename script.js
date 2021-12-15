@@ -1,12 +1,10 @@
-// const DOMAIN = "https://api.spoonacular.com/recipes/random";
-// const apiKey = "6828013b9cb841fa99a28230ff495cab";
-// const baseUrl = "https://api.spoonacular.com/recipes/random?apiKey=${apiKey}";
 
 const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
 
 const recipeButton = document.querySelector("#recipe-button");
 const randomRecipe = document.querySelector("#recipe");
-const ingredientsList = document.querySelector("#ingredients");
+const ingredientsDiv = document.querySelector("#ingredients");
+const instructionsDiv = document.querySelector("#instructions");
 const imageDiv = document.querySelector("#image");
 
 // Recipe Name:
@@ -23,7 +21,7 @@ async function fetchRecipeName() {
     const h2 = document.createElement("h2");
     h2.innerText = mealName;
     randomRecipe.appendChild(h2);
-    // end recipe name
+    // ingredients:
     let ingredient = [];
     let measurement = [];
     for (let key in recipe) {
@@ -38,7 +36,6 @@ async function fetchRecipeName() {
       }
       // console.log(ingredient, measurement);
     }
-    // Ingredients:
     const ingredients = [];
     for (let i = 0; i < ingredient.length; i++) {
       let str = `${measurement[i]} ${ingredient[i]}`;
@@ -49,7 +46,7 @@ async function fetchRecipeName() {
       if (ingredients[i] !== "") {
         const li = document.createElement("li");
         li.innerText = ingredients[i];
-        randomRecipe.appendChild(li);
+        ingredientsDiv.appendChild(li);
       }
       // console.log(typeof ingredients[i]);
     };
@@ -57,7 +54,7 @@ async function fetchRecipeName() {
     const instructions = recipe.strInstructions;
     const p = document.createElement("p");
     p.innerText = instructions;
-    randomRecipe.appendChild(p);
+    instructionsDiv.appendChild(p);
     // image:
     const recipePic = recipe.strMealThumb;
     const img = document.createElement("img");
@@ -69,6 +66,25 @@ async function fetchRecipeName() {
   }
 }
 // fetchRecipeName();
+
+
+
+// button function:
+function handleClick() {
+  fetchRecipeName();
+  // fetchIngredients();
+  // fetchInstructions();
+  // fetchImg();
+}
+
+recipeButton.addEventListener("click", handleClick);
+
+// removes previous recipe when button clicked again:
+function removeRecipe() {
+  randomRecipe.innerHTML = "";
+  imageDiv.innerHTML = "";
+}
+
 
 // Ingredients:
 // async function fetchIngredients() {
@@ -152,19 +168,3 @@ async function fetchRecipeName() {
 // fetchImg();
 
 // Add youtube link?
-
-// button function:
-function handleClick() {
-  fetchRecipeName();
-  // fetchIngredients();
-  // fetchInstructions();
-  // fetchImg();
-}
-
-recipeButton.addEventListener("click", handleClick);
-
-// removes previous recipe when button clicked again:
-function removeRecipe() {
-  randomRecipe.innerHTML = "";
-  imageDiv.innerHTML = "";
-}

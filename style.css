@@ -31,15 +31,12 @@ box-shadow: 3px 3px 3px grey;
 #recipe{
 display: flex;
 flex-direction: column;
+justify-content: center;
 }
 
 #image{
   display: flex;
   flex-direction: row;
-    align-content: center;
-    justify-content: center;
+  align-content: center;
+  justify-content: center;
 }
-
-/* .hide:empty{
-  display: none;
-} */
