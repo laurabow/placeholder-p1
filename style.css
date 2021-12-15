@@ -60,6 +60,7 @@ align-items: center;
   height: 250px;
   width: auto;
   margin: auto;
+  box-shadow: 3px 3px 3px grey;
 }
 
 #instructions{
