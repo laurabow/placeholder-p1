@@ -41,13 +41,14 @@ align-items: center;
   align-items: flex-start;
 }
 
-#image{
+#image img{
   display: flex; 
   flex-direction: row;
   align-content: center;
   justify-content: center;
-/* width: 20px;
-height: auto; */
+  height: 250px;
+  width: auto;
+  margin: auto;
 }
 
 #instructions{
