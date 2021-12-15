@@ -112,7 +112,7 @@ WireframeLink: https://whimsical.com/priority-matrix-PXKTKkQ7Q55hnFRsDSSTEB
 |  Day | Deliverable | Status
 |---|---| ---|
 |Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Dec 13| Project Approval | Incomplete
+|Dec 13| Project Approval | Complete
 |Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Dec 14| Pseudocode / actual code | Incomplete
 |Dec 15| Initial Clickable Model  | Incomplete
@@ -131,16 +131,16 @@ PriorityMatrix: https://whimsical.com/real-priority-matrix-LXecpXrXLF4gdY9wbfgwU
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Set up of HTML/JS/CSS | H | 2 hrs | 0 | 0 |
-| set up API | H | 2hrs | 0 | 0 |
-| Make header | H | 1hr | 0 | 0 |
-| Make body content | H | 2hrs | 0 | 0 |
-| make btn/event listener | H | 3 hrs | 0 | 0 |
-| Debugging API/button | H | 4 hrs | 0 | 0 |
-| style header | M | 2 hrs | 0 | 0 |
-| pull data/create variables | H | 4hr | 0 | 0 |
-| append recipes to DOM | H | 4 hrs | 0 | 0 |
+| Working with API | H | 3hrs| 3hrs | 2.5hrs |
+| Set up of HTML/JS/CSS | H | 2 hrs | 3 | 0 |
+| set up API | H | 2hrs | 3hr | 0 |
+| Make header | H | 1hr | .5hr | 0 |
+| Make body content | H | 2hrs | 1hr | 0 |
+| make btn/event listener | H | 3 hrs | 1hr | 0 |
+| Debugging API/button | H | 4 hrs | 4hr | 0 |
+| style header | M | 2 hrs | 1hr | 0 |
+| pull data/create variables | H | 4hr | 2.5hr | 0 |
+| append recipes to DOM | H | 4 hrs | 1hr | 0 |
 | CSS formatting | H | 3hr | 0 | 0 |
 | design focus | M | 3 hr | 0 | 0 |
 | DEBUG | H | 4 hrs | 0 | 0 |
