@@ -42,10 +42,12 @@ align-items: center;
 }
 
 #image{
-  display: flex;
+  display: flex; 
   flex-direction: row;
   align-content: center;
   justify-content: center;
+/* width: 20px;
+height: auto; */
 }
 
 #instructions{

@@ -59,6 +59,7 @@ async function fetchRecipeName() {
     const recipePic = recipe.strMealThumb;
     const img = document.createElement("img");
     img.src = recipePic;
+    img.alt = "picture of recipe";
     imageDiv.appendChild(img);
     // end image
   } catch (error) {
