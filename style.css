@@ -76,6 +76,6 @@ align-items: center;
     justify-content: center;
   }
   #intro{
-    align-content: center;
+    text-align: center;
   }
 }
