@@ -75,6 +75,9 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
   }
+  #title{
+    text-align: center;
+  }
   #intro{
     text-align: center;
   }
