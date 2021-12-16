@@ -82,3 +82,9 @@ align-items: center;
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 713px){
+  #intro{
+    text-align: center;
+  }
+}
