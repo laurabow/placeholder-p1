@@ -150,14 +150,70 @@ PriorityMatrix: https://whimsical.com/real-priority-matrix-LXecpXrXLF4gdY9wbfgwU
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+Function that fetches information from the API for all parts of a random recipe and appends it to the page. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+async function fetchRecipeName() {
+  removeRecipe();
+  try {
+    const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
+    let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
+    // console.log(res.data.meals[0]);
+    const recipe = res.data.meals[0];
+    console.log(recipe);
+    const mealName = recipe.strMeal;
+    // console.log(mealName);
+    const h2 = document.createElement("h2");
+    h2.innerText = mealName;
+    randomRecipe.appendChild(h2);
+    // ingredients:
+    let ingredient = [];
+    let measurement = [];
+    for (let key in recipe) {
+
+      if (key.includes("strIngredient") && recipe[key] != "" && recipe[key] !== null) {
+        ingredient.push(recipe[key]);
+        // console.log(recipe[key]);
+      }
+      if (key.includes("strMeasure") && recipe[key] != "" && recipe[key] !== null) {
+        measurement.push(recipe[key]);
+        // console.log(recipe[key]);
+      }
+      // console.log(ingredient, measurement);
+    }
+    const ingredients = [];
+    for (let i = 0; i < ingredient.length; i++) {
+      let str = `${measurement[i]} ${ingredient[i]}`;
+      ingredients.push(str);
+    }
+
+    for (let i = 0; i < ingredients.length; i++) {
+      if (ingredients[i] !== "") {
+        const li = document.createElement("li");
+        li.innerText = ingredients[i];
+        ingredientsDiv.appendChild(li);
+      }
+      // console.log(typeof ingredients[i]);
+    };
+    // instructions:
+    const instructions = recipe.strInstructions;
+    const p = document.createElement("p");
+    p.innerText = instructions;
+    instructionsDiv.appendChild(p);
+    // image:
+    const recipePic = recipe.strMealThumb;
+    const img = document.createElement("img");
+    img.src = recipePic;
+    img.alt = "picture of recipe";
+    imageDiv.appendChild(img);
+    // end image
+  } catch (error) {
+    console.log(error);
+  }
 }
 ```
 
 ## Change Log
  
  Switched API from spoontacular to the mealdb (spoontacular costs money now) 
+ Altered which side of the screen the recipe picture will be on. It is to the left of the ingredients instead of to the right.
