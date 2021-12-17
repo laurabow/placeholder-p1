@@ -141,10 +141,10 @@ PriorityMatrix: https://whimsical.com/real-priority-matrix-LXecpXrXLF4gdY9wbfgwU
 | style header | M | 2 hrs | 1hr | 0 |
 | pull data/create variables | H | 4hr | 2.5hr | 0 |
 | append recipes to DOM | H | 4 hrs | 1hr | 0 |
-| CSS formatting | H | 3hr | 0 | 0 |
-| design focus | M | 3 hr | 0 | 0 |
-| DEBUG | H | 4 hrs | 0 | 0 |
-| testing | H | 4hr | 0 | 0 |
+| CSS formatting | H | 3hr | 4hr | 0 |
+| design focus | M | 3 hr | 1hr | 0 |
+| DEBUG | H | 4 hrs | 2hr | 0 |
+| testing | H | 4hr | 2hr | 0 |
 | Total | H | 44 hr | 0 | 0 | 
 
 
