@@ -12,7 +12,8 @@ async function fetchRecipeName() {
   removeRecipe();
   try {
     const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
-    let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
+    // let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
+    let res = await axios.get(`${baseUrl}`)
     // console.log(res.data.meals[0]);
     const recipe = res.data.meals[0];
     console.log(recipe);
