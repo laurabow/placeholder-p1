@@ -12,6 +12,13 @@ body {
   font-family: "Catamaran", sans-serif;
 }
 
+p {
+  background-color: rgb(245, 245, 245, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px grey;
+}
+
 #intro {
   display: flex;
   justify-content: center;
@@ -22,7 +29,7 @@ body {
   display: flex;
   margin: auto;
   background-color: rgb(254, 109, 115);
-  border-radius: 8px;
+  border-radius: 30%;
   padding-top: 1%;
   padding-bottom: 1%;
   box-shadow: 3px 3px 3px grey;
@@ -65,7 +72,8 @@ body {
 
 #instructions {
   display: flex;
-  margin: auto;
+  /* margin: auto; */
+  margin: 10px 100px;
   padding: 15px;
 }
 
@@ -81,10 +89,16 @@ body {
   #intro {
     text-align: center;
   }
+  #instructions {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 713px) {
   #intro {
     text-align: center;
+  }
+  #instructions {
+    margin: auto;
   }
 }
