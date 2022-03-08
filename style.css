@@ -1,59 +1,59 @@
-#title{
-display: flex;
-justify-content: center;
-background-color: rgb(255, 203, 119);
-margin: 3% auto 5% auto;
-padding-top: 5%;
-padding-bottom: 5%;
+#title {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 203, 119);
+  margin: 3% auto 5% auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-body{
+body {
   background-color: rgb(23, 195, 178);
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
-#intro{
-display: flex;
-justify-content: center;
-margin: 5% auto; 
+#intro {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
 }
 
-#recipe-button{
-display: flex;
-margin: auto;
-background-color: rgb(254, 109, 115);
-border-radius: 30%;
-padding-top: 1%;
-padding-bottom: 1%;
-box-shadow: 3px 3px 3px grey;
+#recipe-button {
+  display: flex;
+  margin: auto;
+  background-color: rgb(254, 109, 115);
+  border-radius: 8px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-shadow: 3px 3px 3px grey;
 }
 
-#recipe{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+#recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#contain{
+#contain {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-#container div{
+#container div {
   align-items: center;
 }
 
-#ingredients{
+#ingredients {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 10px;
 }
 
-#image img{
-  display: flex; 
+#image img {
+  display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
@@ -63,28 +63,28 @@ align-items: center;
   box-shadow: 3px 3px 3px grey;
 }
 
-#instructions{
+#instructions {
   display: flex;
   margin: auto;
   padding: 15px;
 }
 
-@media only screen and (max-width: 600px){
-	#contain{
+@media only screen and (max-width: 600px) {
+  #contain {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  #title{
+  #title {
     text-align: center;
   }
-  #intro{
+  #intro {
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 713px){
-  #intro{
+@media only screen and (max-width: 713px) {
+  #intro {
     text-align: center;
   }
 }
