@@ -1,5 +1,5 @@
 
-const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
+const baseUrl = "https://www.themealdb.com/api/json/v1/1/random.php";
 
 const recipeButton = document.querySelector("#recipe-button");
 const randomRecipe = document.querySelector("#recipe");
@@ -11,10 +11,10 @@ const imageDiv = document.querySelector("#image");
 async function fetchRecipeName() {
   removeRecipe();
   try {
-    const baseUrl = "www.themealdb.com/api/json/v1/1/random.php";
-    // let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
+    const baseUrl = "https://www.themealdb.com/api/json/v1/1/random.php";
+    let res = await axios.get(`https://boiling-mountain-84087.herokuapp.com/${baseUrl}`)
     // let res = await axios.get(`${baseUrl}`)
-    let res = await axios.get(`https://cors-anywhere.herokuapp.com/${baseUrl}`)
+    // let res = await axios.get(`https://cors-anywhere.herokuapp.com/${baseUrl}`)
     // console.log(res.data.meals[0]);
     const recipe = res.data.meals[0];
     console.log(recipe);
